@@ -10,7 +10,7 @@ function User(props) {
       const res = await fetch('https://jsonplaceholder.typicode.com/users/3');
       const data = await res.json();
       setProfile(data)
-    }, 1000)
+    }, 500)
   })
   return (
     <>
