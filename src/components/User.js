@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import SkeletonProfile from '../skeleton/SkeletonProfile';
 
 function User(props) {
 
@@ -27,7 +28,7 @@ function User(props) {
           </div>
 
           :
-          <div>Loading...</div>
+          <SkeletonProfile />
       }
 
 
