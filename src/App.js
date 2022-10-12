@@ -1,4 +1,5 @@
 import Articles from "./components/Articles";
+import User from "./components/User";
 
 function App() {
   return (
@@ -11,8 +12,7 @@ function App() {
           <Articles />
         </div>
         <div className="col-span-1">
-          {/* <User /> */}
-          page 2
+          <User />
         </div>
       </div>
     </div>
