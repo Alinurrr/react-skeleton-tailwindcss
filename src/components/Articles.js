@@ -27,7 +27,7 @@ function Articles(props) {
                 <div className="article my-2" key={article.id}>
                   <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl mx-auto border border-white bg-white">
                     <div className="w-full md:w-1/3 bg-white grid place-items-center">
-                      <img src={`https://picsum.photos/id/` + article.id + `/200/300`} alt="random" className="rounded-xl h-52 w-full object-cover" />
+                      <img src={`https://picsum.photos/id/` + article.id * 2 + `/200/300`} alt="random" className="rounded-xl h-52 w-full object-cover" />
                     </div>
                     <div className="w-full md:w-2/3 bg-white flex flex-col space-y-2 p-3">
 
